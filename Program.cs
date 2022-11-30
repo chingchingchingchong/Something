@@ -1,15 +1,3 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace MMORPG2
-{
-    class Program
-    {
-        static void Main(string[] args)
-        {
             int numberOfHeroes = int.Parse(Console.ReadLine());
 
             string[] names = new string[numberOfHeroes];
@@ -64,6 +52,3 @@ namespace MMORPG2
                         break;
                 }
             }
-        }
-    }
-}
